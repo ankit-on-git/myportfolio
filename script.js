@@ -8,12 +8,35 @@ const TECH = [
 
 const PROJECTS = [
   {
+    title: "Onlyfools",
+    description: "An AI-run news media platform where AI agents create and publish news automatically. Co-founded by Ankit.",
+    tags: ["AI News", "AI Agents", "Automation", "Media"],
+    image: "images/onlyfools.png",
+    live: "https://www.instagram.com/onlyfools.in/?hl=en",
+    liveLabel: "Instagram",
+    github: "https://www.linkedin.com/posts/onlyfools_the-indian-government-temporarily-restricted-activity-7472904365922492416-TBCI?utm_source=share&utm_medium=member_desktop&rcm=ACoAAF7xbzUBhAPV37nLxbe0ADfLFQGpSKcPPN8",
+    githubLabel: "LinkedIn Post",
+  },
+  {
+    title: "Ultron",
+    description: "Personal AI agent built using open-source models with OpenClaw & Hermes agent running locally on Ollama.",
+    tags: ["AI Agent", "Ollama", "Hermes", "Open Source"],
+    image: "images/ultron.jpg",
+    live: "#",
+    liveLabel: "Soon..",
+    github: "https://github.com/ankit-on-git",
+    githubLabel: "GitHub",
+    badge: "Soon..",
+  },
+  {
     title: "Password Generator",
     description: "A web app that generates secure random passwords with a clean, card-style UI, plus a downloadable access slip.",
     tags: ["HTML", "CSS", "JavaScript", "Python"],
     image: "images/password-generator.png",
     live: "https://pass-generator1.vercel.app/",
+    liveLabel: "Live Demo",
     github: "https://github.com/ankit-on-git/password-generator.git",
+    githubLabel: "GitHub",
   },
   {
     title: "Modern Calculator",
@@ -21,15 +44,17 @@ const PROJECTS = [
     tags: ["JavaScript", "UI", "Tools"],
     image: "images/modern-calculator.png",
     live: "https://modern-calculex.vercel.app/",
+    liveLabel: "Live Demo",
     github: "https://github.com/ankit-on-git/Modern-Calculator.git",
+    githubLabel: "GitHub",
   },
 ];
 
 // Add a new certificate by appending an object here.
 const CERTIFICATES = [
+  { title: "Quizoff 2026", issuer: "Unstop", image: "images/cert-quizoff.svg", url: "https://drive.google.com/file/d/1IMOlLJFMIJ9wWu548H0zxgFLQ9volZ2p/view" },
   { title: "Infosys Springboard Certificate", issuer: "Infosys", image: "images/cert-infosys.png", url: "https://drive.google.com/file/d/1-ou-RyaQ1I8MIxrEx1PrqD-AgpUQI2R-/view" },
   { title: "Python", issuer: "HackerRank", image: "images/cert-hackerrank.png", url: "https://www.hackerrank.com/certificates/iframe/0a0cf4c877e8" },
-  { title: "Digital Transformation with Google Cloud", issuer: "Google Cloud · SimpliLearn", image: "images/cert-googlecloud.png", url: "https://www.simplilearn.com/digital-transformation-with-google-cloud-course-skillup" },
   { title: "Hackathon", issuer: "Participation Certificate", image: "images/cert-hackathon.png", url: "https://drive.google.com/file/d/1NphrGo85oVo8HURp_nq7Ncw1nKhhHMrC/view" },
 ];
 
@@ -40,14 +65,20 @@ document.getElementById("pills").innerHTML = TECH.map(
 
 document.getElementById("projectCards").innerHTML = PROJECTS.map(
   (p) => `<article class="card">
-    <img src="${p.image}" alt="${p.title} screenshot" loading="lazy" />
+    <div class="card-img-wrapper">
+      <img src="${p.image}" alt="${p.title} screenshot" loading="lazy" />
+      ${p.badge ? `<span class="card-badge">${p.badge}</span>` : ''}
+    </div>
     <div class="card-body">
       <h3>${p.title}</h3>
       <p>${p.description}</p>
       <div class="tags">${p.tags.map((t) => `<span class="tag">${t}</span>`).join("")}</div>
       <div class="btn-row">
-        <a class="btn btn-primary" href="${p.live}" target="_blank" rel="noopener noreferrer">Live Demo</a>
-        <a class="btn btn-ghost" href="${p.github}" target="_blank" rel="noopener noreferrer">GitHub</a>
+        ${p.live === '#' ? 
+          `<span class="btn btn-disabled">${p.liveLabel || 'Soon..'}</span>` : 
+          `<a class="btn btn-primary" href="${p.live}" target="_blank" rel="noopener noreferrer">${p.liveLabel || 'Live Demo'}</a>`
+        }
+        <a class="btn btn-ghost" href="${p.github}" target="_blank" rel="noopener noreferrer">${p.githubLabel || 'GitHub'}</a>
       </div>
     </div>
   </article>`
