@@ -52,7 +52,7 @@ const PROJECTS = [
     title: "QR code generator",
     description: "QR code generator ,it can generate qr code from text or url",
     tags: ["JavaScript", "UI", "Tools"],
-    image: "qrbg.jpeg",
+    image: "images/qrbg.jpeg",
     live: "https://qr-code-gen-gules.vercel.app/",
     liveLabel: "Live Demo",
     github: "https://github.com/ankit-on-git/QR-Code-Creater",
@@ -64,7 +64,7 @@ const PROJECTS = [
 
 // Add a new certificate by appending an object here.
 const CERTIFICATES = [
-  { title: "Quizoff 2026", issuer: "Unstop", image: "images/cert-quizoff.jpeg", url: "https://drive.google.com/file/d/1IMOlLJFMIJ9wWu548H0zxgFLQ9volZ2p/view" },
+  { title: "Quizoff 2026", issuer: "Unstop", image: "images/cert-quizoff.png", url: "https://drive.google.com/file/d/1IMOlLJFMIJ9wWu548H0zxgFLQ9volZ2p/view" },
   { title: "Infosys Springboard Certificate", issuer: "Infosys", image: "images/cert-infosys.png", url: "https://drive.google.com/file/d/1-ou-RyaQ1I8MIxrEx1PrqD-AgpUQI2R-/view" },
   { title: "Python", issuer: "HackerRank", image: "images/cert-hackerrank.png", url: "https://www.hackerrank.com/certificates/iframe/0a0cf4c877e8" },
   { title: "Hackathon", issuer: "Participation Certificate", image: "images/cert-hackathon.png", url: "https://drive.google.com/file/d/1NphrGo85oVo8HURp_nq7Ncw1nKhhHMrC/view" },
