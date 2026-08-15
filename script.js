@@ -48,6 +48,18 @@ const PROJECTS = [
     github: "https://github.com/ankit-on-git/Modern-Calculator.git",
     githubLabel: "GitHub",
   },
+  {
+    title: "QR code generator",
+    description: "QR code generator ,it can generate qr code from text or url",
+    tags: ["JavaScript", "UI", "Tools"],
+    image: ".png",
+    live: "https://qr-code-gen-gules.vercel.app/",
+    liveLabel: "Live Demo",
+    github: "https://github.com/ankit-on-git/QR-Code-Creater",
+    githubLabel: "GitHub",
+    
+  }
+  
 ];
 
 // Add a new certificate by appending an object here.
