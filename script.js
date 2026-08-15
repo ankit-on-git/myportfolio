@@ -52,7 +52,7 @@ const PROJECTS = [
     title: "QR code generator",
     description: "QR code generator ,it can generate qr code from text or url",
     tags: ["JavaScript", "Ui", "HTML"],
-    image: "images/Screenshot 2026-08-15 142910.jpeg",
+    image: "images/Screenshot 2026-08-15 142910.png",
     live: "https://qr-code-gen-gules.vercel.app/",
     liveLabel: "Live Demo",
     github: "https://github.com/ankit-on-git/QR-Code-Creater",
