@@ -51,8 +51,8 @@ const PROJECTS = [
   {
     title: "QR code generator",
     description: "QR code generator ,it can generate qr code from text or url",
-    tags: ["JavaScript", "UI", "Tools"],
-    image: "images/qrbg.jpeg",
+    tags: ["JavaScript", "Ui", "HTML"],
+    image: "images/Screenshot 2026-08-15 142910.jpeg",
     live: "https://qr-code-gen-gules.vercel.app/",
     liveLabel: "Live Demo",
     github: "https://github.com/ankit-on-git/QR-Code-Creater",
@@ -62,7 +62,7 @@ const PROJECTS = [
   
 ];
 
-// Add a new certificate by appending an object here.
+
 const CERTIFICATES = [
   { title: "Quizoff 2026", issuer: "Unstop", image: "images/cert-quizoff.png", url: "https://drive.google.com/file/d/1IMOlLJFMIJ9wWu548H0zxgFLQ9volZ2p/view" },
   { title: "Infosys Springboard Certificate", issuer: "Infosys", image: "images/cert-infosys.png", url: "https://drive.google.com/file/d/1-ou-RyaQ1I8MIxrEx1PrqD-AgpUQI2R-/view" },
