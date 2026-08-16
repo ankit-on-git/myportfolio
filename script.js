@@ -58,6 +58,17 @@ const PROJECTS = [
     github: "https://github.com/ankit-on-git/QR-Code-Creater",
     githubLabel: "GitHub",
     
+  },
+   {
+    title: "Quote",
+    description: "generating quotes so that you can copy where you are want",
+    tags: ["JavaScript", "Css", "HTML"],
+    image: "images/.png",
+    live: "https://qr-code-gen-gules.vercel.app/",
+    liveLabel: "Live Demo",
+    github: "https://github.com/ankit-on-git/QR-Code-Creater",
+    githubLabel: "GitHub",
+    
   }
   
 ];
