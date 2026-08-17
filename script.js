@@ -7,27 +7,7 @@ const TECH = [
 ];
 
 const PROJECTS = [
-  {
-    title: "Password Generator",
-    description: "A web app that generates secure random passwords with a clean, card-style UI, plus a downloadable access slip.",
-    tags: ["HTML", "CSS", "JavaScript", "Python"],
-    image: "images/password-generator.png",
-    live: "https://pass-generator1.vercel.app/",
-    liveLabel: "Live Demo",
-    github: "https://github.com/ankit-on-git/password-generator.git",
-    githubLabel: "GitHub",
-  },
-  {
-    title: "Modern Calculator",
-    description: "A modern scientific + standard calculator with math functions, currency, temperature, area, EMI/loan, and PPP conversion tools built into a sidebar-based UI.",
-    tags: ["JavaScript", "Css", "Html"],
-    image: "images/WhatsApp Image 2026-08-17 at 23.04.20.jpeg",
-    live: "https://modern-calculex.vercel.app/",
-    liveLabel: "Live Demo",
-    github: "https://github.com/ankit-on-git/Modern-Calculator.git",
-    githubLabel: "GitHub",
-  },
-  {
+    {
     title: "QR code generator",
     description: "QR code generator ,it can generate qr code from text or url",
     tags: ["JavaScript", "Ui", "HTML"],
@@ -49,7 +29,27 @@ const PROJECTS = [
     githubLabel: "GitHub",
     
   },
-    {
+  {
+    title: "Password Generator",
+    description: "A web app that generates secure random passwords with a clean, card-style UI, plus a downloadable access slip.",
+    tags: ["HTML", "CSS", "JavaScript", "Python"],
+    image: "images/password-generator.png",
+    live: "https://pass-generator1.vercel.app/",
+    liveLabel: "Live Demo",
+    github: "https://github.com/ankit-on-git/password-generator.git",
+    githubLabel: "GitHub",
+  },
+  {
+    title: "Modern Calculator",
+    description: "A modern scientific + standard calculator with math functions, currency, temperature, area, EMI/loan, and PPP conversion tools built into a sidebar-based UI.",
+    tags: ["JavaScript", "Css", "Html"],
+    image: "images/WhatsApp Image 2026-08-17 at 23.04.20.jpeg",
+    live: "https://modern-calculex.vercel.app/",
+    liveLabel: "Live Demo",
+    github: "https://github.com/ankit-on-git/Modern-Calculator.git",
+    githubLabel: "GitHub",
+  },   
+  {
     title: "Ultron",
     description: "Personal AI agent built using open-source models with OpenClaw & Hermes agent running locally on Ollama.",
     tags: ["AI Agent", "Ollama", "Hermes", "Open Source"],
