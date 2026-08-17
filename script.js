@@ -75,6 +75,7 @@ const PROJECTS = [
 
 
 const CERTIFICATES = [
+  { title: "Times Foundation", issuer: "TOI", image: "images/certificatetoi.jpeg", url: "https://drive.google.com/file/d/1eWAucKliBeWEFmEFacst5jAA1gZ82jOv/view?usp=sharing" },
   { title: "Quizoff 2026", issuer: "Unstop", image: "images/cert-quizoff.png", url: "https://drive.google.com/file/d/1IMOlLJFMIJ9wWu548H0zxgFLQ9volZ2p/view" },
   { title: "Infosys Springboard Certificate", issuer: "Infosys", image: "images/cert-infosys.png", url: "https://drive.google.com/file/d/1-ou-RyaQ1I8MIxrEx1PrqD-AgpUQI2R-/view" },
   { title: "Python", issuer: "HackerRank", image: "images/cert-hackerrank.png", url: "https://www.hackerrank.com/certificates/iframe/0a0cf4c877e8" },
