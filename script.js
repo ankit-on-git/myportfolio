@@ -60,13 +60,13 @@ const PROJECTS = [
     
   },
    {
-    title: "Quote",
+    title: "Quote generator",
     description: "generating quotes so that you can copy where you are want",
     tags: ["JavaScript", "Css", "HTML"],
-    image: "images/.png",
-    live: "https://qr-code-gen-gules.vercel.app/",
+    image: "images/Screenshot 2026-08-16 201947.png",
+    live: "https://quote-generator-flame-omega.vercel.app/",
     liveLabel: "Live Demo",
-    github: "https://github.com/ankit-on-git/QR-Code-Creater",
+    github: "https://github.com/ankit-on-git/quote-generator",
     githubLabel: "GitHub",
     
   }
