@@ -21,7 +21,7 @@ const PROJECTS = [
     title: "Modern Calculator",
     description: "A modern scientific + standard calculator with math functions, currency, temperature, area, EMI/loan, and PPP conversion tools built into a sidebar-based UI.",
     tags: ["JavaScript", "Css", "Html"],
-    image: "images/WhatsApp Image 2026-08-17 at 23.04.20.png",
+    image: "images/WhatsApp Image 2026-08-17 at 23.04.20.jpeg",
     live: "https://modern-calculex.vercel.app/",
     liveLabel: "Live Demo",
     github: "https://github.com/ankit-on-git/Modern-Calculator.git",
