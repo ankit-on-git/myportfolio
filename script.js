@@ -8,27 +8,6 @@ const TECH = [
 
 const PROJECTS = [
   {
-    title: "Onlyfools",
-    description: "An AI-run news media platform where AI agents create and publish news automatically. Co-founded by Ankit.",
-    tags: ["AI News", "AI Agents", "Automation", "Media"],
-    image: "images/onlyfools.png",
-    live: "https://www.instagram.com/onlyfools.in/?hl=en",
-    liveLabel: "Instagram",
-    github: "https://www.linkedin.com/posts/onlyfools_the-indian-government-temporarily-restricted-activity-7472904365922492416-TBCI?utm_source=share&utm_medium=member_desktop&rcm=ACoAAF7xbzUBhAPV37nLxbe0ADfLFQGpSKcPPN8",
-    githubLabel: "LinkedIn Post",
-  },
-  {
-    title: "Ultron",
-    description: "Personal AI agent built using open-source models with OpenClaw & Hermes agent running locally on Ollama.",
-    tags: ["AI Agent", "Ollama", "Hermes", "Open Source"],
-    image: "images/ultron.jpg",
-    live: "#",
-    liveLabel: "Soon..",
-    github: "https://github.com/ankit-on-git",
-    githubLabel: "GitHub",
-    badge: "Soon..",
-  },
-  {
     title: "Password Generator",
     description: "A web app that generates secure random passwords with a clean, card-style UI, plus a downloadable access slip.",
     tags: ["HTML", "CSS", "JavaScript", "Python"],
@@ -42,7 +21,7 @@ const PROJECTS = [
     title: "Modern Calculator",
     description: "A modern scientific + standard calculator with math functions, currency, temperature, area, EMI/loan, and PPP conversion tools built into a sidebar-based UI.",
     tags: ["JavaScript", "Css", "Html"],
-    image: "images/modern-calculator.png",
+    image: "images/WhatsApp Image 2026-08-17 at 23.04.20.png",
     live: "https://modern-calculex.vercel.app/",
     liveLabel: "Live Demo",
     github: "https://github.com/ankit-on-git/Modern-Calculator.git",
@@ -69,7 +48,28 @@ const PROJECTS = [
     github: "https://github.com/ankit-on-git/quote-generator",
     githubLabel: "GitHub",
     
-  }
+  },
+    {
+    title: "Ultron",
+    description: "Personal AI agent built using open-source models with OpenClaw & Hermes agent running locally on Ollama.",
+    tags: ["AI Agent", "Ollama", "Hermes", "Open Source"],
+    image: "images/ultron.jpg",
+    live: "#",
+    liveLabel: "Soon..",
+    github: "https://github.com/ankit-on-git",
+    githubLabel: "GitHub",
+    badge: "Soon..",
+  },
+   {
+    title: "Onlyfools",
+    description: "An AI-run news media platform where AI agents create and publish news automatically. Co-founded by Ankit.",
+    tags: ["AI News", "AI Agents", "Automation", "Media"],
+    image: "images/onlyfools.png",
+    live: "https://www.instagram.com/onlyfools.in/?hl=en",
+    liveLabel: "Instagram",
+    github: "https://www.linkedin.com/posts/onlyfools_the-indian-government-temporarily-restricted-activity-7472904365922492416-TBCI?utm_source=share&utm_medium=member_desktop&rcm=ACoAAF7xbzUBhAPV37nLxbe0ADfLFQGpSKcPPN8",
+    githubLabel: "LinkedIn Post",
+  },
   
 ];
 
