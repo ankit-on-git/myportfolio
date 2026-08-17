@@ -41,7 +41,7 @@ const PROJECTS = [
   {
     title: "Modern Calculator",
     description: "A modern scientific + standard calculator with math functions, currency, temperature, area, EMI/loan, and PPP conversion tools built into a sidebar-based UI.",
-    tags: ["JavaScript", "UI", "Tools"],
+    tags: ["JavaScript", "Css", "Html"],
     image: "images/modern-calculator.png",
     live: "https://modern-calculex.vercel.app/",
     liveLabel: "Live Demo",
